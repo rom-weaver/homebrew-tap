@@ -1,28 +1,28 @@
 class RomWeaver < Formula
   desc "Local-first toolkit for ROMs and disc images: inspect, extract, compress, and apply, create, or bundle patches. Offline via a browser service-worker PWA or CLI."
   homepage "https://rom-weaver.com"
-  version "0.9.0"
+  version "0.10.0"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.9.0/rom-weaver-darwin-arm64"
-      sha256 "7fac93e75ec8632a25fd5a4806292253abb05879f369169aad4c00e00b5e04ea"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.10.0/rom-weaver-darwin-arm64"
+      sha256 "592f91f4cfda8b1901af9cdf3d98887168bf9f9210fcc3696bae78ef5f641c94"
     end
     on_intel do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.9.0/rom-weaver-darwin-x64"
-      sha256 "fa1c4b4c0ce9ec9c3427c363f7917f0bee1939457799a915094a02e32f304670"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.10.0/rom-weaver-darwin-x64"
+      sha256 "42a90b0ad2e5eb118242580cf5b404bd2c1a1962a87990a9062aebd1f6ba9e7c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.9.0/rom-weaver-linux-arm64-musl"
-      sha256 "48580a913b49ea7cc02569710ee3aab83e4b9f1460eecc8e0f5c8de26bfd86c7"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.10.0/rom-weaver-linux-arm64-musl"
+      sha256 "a750f9cc6d4c619723578d87813cc3f73bfc80805e28a0c44ad78343e9199f6c"
     end
     on_intel do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.9.0/rom-weaver-linux-x64-gnu"
-      sha256 "c14b7530753555b62bf2a3a1dcdd91169de556be7e1c0acf18824552e9be6be6"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.10.0/rom-weaver-linux-x64-gnu"
+      sha256 "9b0babeee93ca86448a376dd8cb960a11e895dac7b04ac48849c7d473d215f57"
     end
   end
 
