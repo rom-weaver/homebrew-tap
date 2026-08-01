@@ -1,33 +1,33 @@
 class RomWeaver < Formula
   desc "Local-first toolkit for ROMs and disc images: inspect, extract, compress, and apply, create, or bundle patches. Offline via a browser service-worker PWA or CLI."
   homepage "https://rom-weaver.com"
-  version "0.11.0"
+  version "0.11.1"
   license "AGPL-3.0-or-later"
 
   resource "cli-assets" do
-    url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.11.0/rom-weaver-cli-assets.tar.gz"
-    sha256 "91be42dffaf9efd17df5f8f430e75a9fadf30d7e9f2aa6aeebc4621e18784edc"
+    url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.11.1/rom-weaver-cli-assets.tar.gz"
+    sha256 "6842fb3080baa38303635d7f967d7a138a52a99ca35a76e30caa8e449d41170a"
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.11.0/rom-weaver-darwin-arm64.tar.gz"
-      sha256 "c8b2fd98a87c34f559390d0f1d3e68ef1fe6ddbb1ed5784292d3bcdc9f5e88a8"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.11.1/rom-weaver-darwin-arm64.tar.gz"
+      sha256 "cc8fca58e938135dcbac46f3ba79bcc5130961cb821012fa11b439c459b3c743"
     end
     on_intel do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.11.0/rom-weaver-darwin-x64.tar.gz"
-      sha256 "888f6b2f9e7fd706bad86efa6512d4d12f4890c92242b3408344430686d0880d"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.11.1/rom-weaver-darwin-x64.tar.gz"
+      sha256 "1047fe1bf533393fb57508bc18f2a0250419e28f933db95329d93e5b73c02e21"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.11.0/rom-weaver-linux-arm64-musl.tar.gz"
-      sha256 "6e0b1d60e174a6b81e8aa475e695436f0067dbeabc0d621ba615605480992f51"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.11.1/rom-weaver-linux-arm64-musl.tar.gz"
+      sha256 "ecf91ac4b59bf628722f8b71bf6fcd165f1c0a915c69afab55266ff0d344ab81"
     end
     on_intel do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.11.0/rom-weaver-linux-x64-gnu.tar.gz"
-      sha256 "4b8c217b4382e9a767223b6aaeb2a5892605b707c659a57f916fda3e906d69f8"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.11.1/rom-weaver-linux-x64-gnu.tar.gz"
+      sha256 "2f7752e304438268830cbf29ca9417d6240a76e381a238bc3a183811106e7546"
     end
   end
 
