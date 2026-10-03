@@ -1,39 +1,39 @@
 class RomWeaver < Formula
   desc "Offline ROM toolkit: patch, convert, identify, bake in cheat codes, and edit supported game saves. No telemetry."
   homepage "https://rom-weaver.com"
-  version "0.17.0"
+  version "0.18.0"
   license "AGPL-3.0-or-later"
   depends_on "brotli" => :build
 
   resource "cli-assets" do
-    url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.17.0/rom-weaver-cli-assets.tar.gz"
-    sha256 "2d01c882515f7dc2aecbe6c42c3e7846d3feae01b2b61dc57ad62b17ca4fddee"
+    url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.18.0/rom-weaver-cli-assets.tar.gz"
+    sha256 "130aec7a612d195dd3fe51dc069b89244bab9849e65ea4de5697c475f4d360aa"
   end
 
   resource "identify-data" do
-    url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.17.0/rom-weaver-identify-data.tar.br", using: :nounzip
-    sha256 "4c920b678761a19ff533a5a95c3f9c750a094ba73e5fce8b888c98bf904ef40a"
+    url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.18.0/rom-weaver-identify-data.tar.br", using: :nounzip
+    sha256 "6d78ae211d1bbb1583731671272b594940f2938ec077bcaffbe395f2a0e5d85b"
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.17.0/rom-weaver-darwin-arm64.tar.gz"
-      sha256 "e4ded9e8229ccfe9e08a733fc77b19a79730dcb40acf855078c686b84809c336"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.18.0/rom-weaver-darwin-arm64.tar.gz"
+      sha256 "6187a8c7bc2996b9c836dc037eb15193c9fd91bd13a4484979733abb29f3cb2d"
     end
     on_intel do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.17.0/rom-weaver-darwin-x64.tar.gz"
-      sha256 "eb39be6a8371f6143614727be590cad389d2dfb344f0afbd397abbabd225275d"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.18.0/rom-weaver-darwin-x64.tar.gz"
+      sha256 "d4f9466d9191ec5d6bba548e01e5117c49310ff2d3d38189220d7510436a89d3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.17.0/rom-weaver-linux-arm64-musl.tar.gz"
-      sha256 "f23b1f6facda0f325f1ffe5c7226538621ac35f99c710ca29c5d1c1c1cb02067"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.18.0/rom-weaver-linux-arm64-musl.tar.gz"
+      sha256 "106a5b06f2f3fe552d6f6ead28d9664717cb57ed34944a51451f77c0c7cff3a6"
     end
     on_intel do
-      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.17.0/rom-weaver-linux-x64-gnu.tar.gz"
-      sha256 "29cc2634742e41d401ea7bd97b5bb0b45e1e8bda869da4646f79977d5a4ecafa"
+      url "https://github.com/rom-weaver/rom-weaver/releases/download/v0.18.0/rom-weaver-linux-x64-gnu.tar.gz"
+      sha256 "4a657d42ff866f2c48af324731d3f15c35a5fcb4715b32cd47220f0f49a0177d"
     end
   end
 
